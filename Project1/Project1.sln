@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{B7433715-4F7D-48E7-82F6-3354CBBE0DD2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtApplication1", "QtApplication1\QtApplication1.vcxproj", "{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,11 +23,18 @@ Global
 		{B7433715-4F7D-48E7-82F6-3354CBBE0DD2}.Release|x64.Build.0 = Release|x64
 		{B7433715-4F7D-48E7-82F6-3354CBBE0DD2}.Release|x86.ActiveCfg = Release|Win32
 		{B7433715-4F7D-48E7-82F6-3354CBBE0DD2}.Release|x86.Build.0 = Release|Win32
+		{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}.Debug|x64.ActiveCfg = Debug|Win32
+		{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}.Debug|x86.Build.0 = Debug|Win32
+		{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}.Release|x64.ActiveCfg = Release|Win32
+		{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}.Release|x86.ActiveCfg = Release|Win32
+		{DE5AB3DC-6FDD-4F35-A847-91CE3FEF08B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = $(DefaultQtVersion)
 		SolutionGuid = {6AEF3FA3-A694-4BCA-981B-544C451E9216}
 	EndGlobalSection
 EndGlobal

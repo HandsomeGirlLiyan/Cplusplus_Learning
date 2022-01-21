@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file alias="arrow-decrease">res/icon/arrow-decrease.svg</file>
+        <file alias="arrow-increase">res/icon/arrow-increase.svg</file>
+        <file alias="setting">res/icon/setting.svg</file>
+    </qresource>
+</RCC>
